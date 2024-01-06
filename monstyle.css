@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+.tableauacc {
+	border-collapse: collapse;
+	min-width: 400px;
+	width:auto;
+	cursor: pointer;
+	margin: 100px auto;
+	border: 2px solid midnightblue;
+
+}
+.tableauacc  thead tr{
+	background-color: midnightblue;
+	color:#fff;
+	text-align: left;}
+.tableauacc  th td{
+	padding:15px auto;
+	margin: 15px auto;
+}
+.tableauacc  tbody tr,td,th{
+	border:1px solide #ddd ;
+}
+.tableauacc tbody tr:nth-child(even){
+	background-color: #f3f3f3;
+
+}
+
+
+.button{
+	color: white
+	background-color:midnightblue;
+	width: 60px; height: 50px;
+	 position:right ;
+}
+.navbar {    
+  background: #2C3E50;
+  .navbar-nav li a {
+    color: #eee;
+    &:hover {
+      color: #18BC9C;
+    }
+  }
+}
+
+
+/*.tableauacc th{
+	padding: 10px;
+	margin:10px;
+	background: #4682B4;
+	border: 1px dotted gray;
+
+
+}
+.tableauacc tr{
+	background: #D3D3D3;
+	padding: 10px;
+	margin: 10px;
+
+}
+.tableauacc td{
+	background: #D3D3D3;
+	padding: 10px;
+	margin: 10px;
+
+}
+*/
+.Authentification{
+	width: 30%;
+}
+.inscription{
+	background: #D3D3D3;
+
+}
